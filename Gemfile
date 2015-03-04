@@ -4,7 +4,7 @@ source 'https://rubygems.org'
 gem 'rails', '4.0.1'
 
 # Use sqlite3 as the database for Active Record
-gem 'mysql2'
+gem 'pg'
 
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 4.0.0'
@@ -38,8 +38,8 @@ end
 # Use debugger
 # gem 'debugger', group: [:development, :test]
 
-gem 'capistrano', '~> 3.1.0'
-gem 'capistrano-rails', '~> 1.1'
+gem 'capistrano', '~> 3.3.5'
+gem 'capistrano-rails', '~> 1.1.2'
 
 group :production, :staging do
   gem 'unicorn'

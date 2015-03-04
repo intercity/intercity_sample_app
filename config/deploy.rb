@@ -1,5 +1,5 @@
 # config valid only for Capistrano 3.1
-lock '3.1.0'
+lock '3.3.5'
 
 set :application, 'intercity_sample_app'
 set :repo_url, 'git@github.com:intercity/intercity_sample_app.git'
@@ -8,7 +8,7 @@ set :repo_url, 'git@github.com:intercity/intercity_sample_app.git'
 # ask :branch, proc { `git rev-parse --abbrev-ref HEAD`.chomp }
 
 # Default deploy_to directory is /var/www/my_app
-set :deploy_to, '/u/apps/intercity_sample_app'
+set :deploy_to, '/u/apps/myapp_production'
 
 # Use agent forwarding for SSH so you can deploy with the SSH key on your workstation.
 set :ssh_options, {
