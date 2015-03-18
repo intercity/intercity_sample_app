@@ -8,7 +8,7 @@ set :repo_url, 'git@github.com:intercity/intercity_sample_app.git'
 # ask :branch, proc { `git rev-parse --abbrev-ref HEAD`.chomp }
 
 # Default deploy_to directory is /var/www/my_app
-set :deploy_to, '/u/apps/myapp_production'
+set :deploy_to, '/u/apps/myapp'
 
 # Use agent forwarding for SSH so you can deploy with the SSH key on your workstation.
 set :ssh_options, {
